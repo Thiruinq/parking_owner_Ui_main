@@ -1,0 +1,37 @@
+.form-control.style-2::before {
+  content: "YYYY-MM-DDTHH:MM";
+  color: #999; /* Placeholder text color */
+}
+
+.picker{
+  display: flex
+}
+.picker > div:first-child{
+  flex-basis: 500px;
+}
+.cursor-pointer{
+  cursor: pointer;
+}
+
+
+
+.slick-prev:before, .slick-next:before {   
+  color: #0d0c0c !important;
+ 
+}
+.react-confirm-alert-body {
+width: 100% !important;
+}
+
+.nav-item.active .nav-link {
+color: #f97802; /* Your desired color */
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+color: #f97802 !important; /* Your desired color */
+
+}
+.nav-tabs .nav-link {
+color: #949494;background-color: #f0f0f0;}
+.nav-link:hover{
+color: #f97802 !important; 
+}
